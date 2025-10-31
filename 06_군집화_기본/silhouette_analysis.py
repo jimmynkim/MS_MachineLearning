@@ -17,7 +17,7 @@ def silhouette_plot(X, n_clusters):
     sample_silhouette_values = silhouette_samples(X, cluster_labels)
     
     fig, ax1 = plt.subplots(1, 1)
-    fig.set_size_inches(10, 6)
+    fig.set_size_inches(6, 4)
     
     # 그래프의 y축은 클러스터의 개수만큼 높이 설정
     ax1.set_xlim([-0.1, 1])
